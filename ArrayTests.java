@@ -19,7 +19,8 @@ public class ArrayTests {
     int[] input1 = { };
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   int[] input2 = { 6,4,7,6};
-   ArrayExamples.reversed(input2);
     assertArrayEquals(new int[]{6,7,4,6 }, ArrayExamples.reversed(input2));
   }
 }
+
+
